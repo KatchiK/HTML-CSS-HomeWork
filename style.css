@@ -120,4 +120,22 @@
         align-items: center;
         justify-content: space-between;
     }
-    .features
+
+    .features{
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    }
+    .content_features
+    {
+        display: flex;
+         flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .services {
+        background: rgb(250, 250, 250);}
