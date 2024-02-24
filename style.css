@@ -123,13 +123,15 @@
     }
 
     .features {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
+ 
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-column-gap: 35px;
+        
     }
 
     .content_features {
+        padding: 30px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
